@@ -1,0 +1,137 @@
+/* =========================
+   Estilos generales
+========================= */
+:root {
+  --color-fondo: #f5f1ea;
+  --color-superficie: #ffffff;
+  --color-texto: #1f1f1f;
+  --color-principal: #1e293b;
+  --color-secundario: #b45309;
+  --color-borde: #e5e7eb;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   Navbar
+========================= */
+.barra-superior {
+  background: linear-gradient(90deg, #111827, #1f2937);
+}
+
+.buscador-wrapper {
+  width: 100%;
+  max-width: 360px;
+}
+
+.buscador {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-inline: 1rem;
+}
+
+/* =========================
+   Hero
+========================= */
+.hero-banner {
+  background:
+    linear-gradient(rgba(17, 24, 39, 0.72), rgba(17, 24, 39, 0.72)),
+    url("https://images.unsplash.com/photo-1487180144351-b8472da7d491?auto=format&fit=crop&w=1400&q=80")
+      center/cover no-repeat;
+}
+
+.hero-etiqueta {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fcd34d;
+}
+
+/* =========================
+   Filtros
+========================= */
+.filtro-btn {
+  min-width: 100px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.filtro-btn.active {
+  box-shadow: 0 0.25rem 0.85rem rgba(0, 0, 0, 0.18);
+}
+
+/* =========================
+   Tarjetas de disco
+========================= */
+.tarjeta-disco {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: var(--color-superficie);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tarjeta-disco:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.portada-disco {
+  height: 320px;
+  object-fit: cover;
+  background-color: #d1d5db;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-secundario);
+}
+
+/* =========================
+   Estados
+========================= */
+.sin-resultados {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px dashed var(--color-borde);
+  border-radius: 1rem;
+}
+
+/* =========================
+   Footer
+========================= */
+.footer-site {
+  background-color: var(--color-principal);
+  color: #fff;
+}
+
+.texto-footer {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 991.98px) {
+  .buscador-wrapper {
+    max-width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .portada-disco {
+    height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-banner .display-5 {
+    font-size: 2rem;
+  }
+
+  .portada-disco {
+    height: 260px;
+  }
+}
