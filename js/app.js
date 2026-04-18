@@ -27,6 +27,7 @@ async function cargarDiscos() {
     const datos = await respuesta.json();
     discos.value = datos;
 
+    //Se agrega un retraso mínimo para el laboratorio al mostrar el mensaje de carga
     const tiempoTranscurrido = Date.now() - inicio;
     const tiempoMinimo = 2000; // Esperar al menos 2 segundos para mostrar el mensaje de carga
 
@@ -79,7 +80,7 @@ async function cargarDiscos() {
 
 
 
-// Respaldo
+// Respaldo BK
 
 /*const { createApp, ref, onMounted } = Vue;
 createApp({
