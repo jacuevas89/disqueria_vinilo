@@ -16,9 +16,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* =========================
-   Navbar
-========================= */
+/* =========== Buscador =========== */
 .barra-superior {
   background: linear-gradient(90deg, #111827, #1f2937);
 }
@@ -34,13 +32,11 @@ body {
   padding-inline: 1rem;
 }
 
-/* =========================
-   Hero
-========================= */
+/* =========== Portada =========== */
 .hero-banner {
   background:
     linear-gradient(rgba(17, 24, 39, 0.72), rgba(17, 24, 39, 0.72)),
-    url("img/portada.avif")
+    url("../img/portada.avif")
       center/cover no-repeat;
 }
 
