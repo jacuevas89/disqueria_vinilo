@@ -40,7 +40,7 @@ body {
 .hero-banner {
   background:
     linear-gradient(rgba(17, 24, 39, 0.72), rgba(17, 24, 39, 0.72)),
-    url("https://images.unsplash.com/photo-1487180144351-b8472da7d491?auto=format&fit=crop&w=1400&q=80")
+    url("img/portada.avif")
       center/cover no-repeat;
 }
 
@@ -51,9 +51,7 @@ body {
   color: #fcd34d;
 }
 
-/* =========================
-   Filtros
-========================= */
+/* =========== Filtros =========== */
 .filtro-btn {
   min-width: 100px;
   border-radius: 999px;
@@ -64,9 +62,7 @@ body {
   box-shadow: 0 0.25rem 0.85rem rgba(0, 0, 0, 0.18);
 }
 
-/* =========================
-   Tarjetas de disco
-========================= */
+/* =========== Tarjetas de disco ========================= */
 .tarjeta-disco {
   overflow: hidden;
   border-radius: 1rem;
@@ -91,18 +87,14 @@ body {
   color: var(--color-secundario);
 }
 
-/* =========================
-   Estados
-========================= */
+/* =========== Estados =========== */
 .sin-resultados {
   background-color: rgba(255, 255, 255, 0.75);
   border: 1px dashed var(--color-borde);
   border-radius: 1rem;
 }
 
-/* =========================
-   Footer
-========================= */
+/* =========== Footer =========== */
 .footer-site {
   background-color: var(--color-principal);
   color: #fff;
@@ -112,9 +104,7 @@ body {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* =========================
-   Responsive
-========================= */
+/* ===========  Estilos responsivos =========== */
 @media (max-width: 991.98px) {
   .buscador-wrapper {
     max-width: 100%;

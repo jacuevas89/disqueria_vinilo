@@ -6,7 +6,7 @@
     "genero": "jazz",
     "año": 1959,
     "precio": 32000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg",
+    "imagen": "img/disco_1.webp",
     "disponible": true
   },
   {
@@ -16,7 +16,7 @@
     "genero": "jazz",
     "año": 1965,
     "precio": 31000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9e/John_Coltrane_-_A_Love_Supreme.jpg",
+    "imagen": "img/disco_2.jpg",
     "disponible": true
   },
   {
@@ -26,7 +26,7 @@
     "genero": "jazz",
     "año": 1959,
     "precio": 29500,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9d/Time_out_album_cover.jpg",
+    "imagen": "img/disco_3.webp",
     "disponible": true
   },
   {
@@ -36,7 +36,7 @@
     "genero": "rock",
     "año": 1971,
     "precio": 28000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+    "imagen": "img/disco_4.webp",
     "disponible": true
   },
   {
@@ -46,7 +46,7 @@
     "genero": "rock",
     "año": 1969,
     "precio": 34000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "imagen": "img/disco_5.jpeg",
     "disponible": true
   },
   {
@@ -56,7 +56,7 @@
     "genero": "rock",
     "año": 1977,
     "precio": 29000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+    "imagen": "img/disco_6.png",
     "disponible": false
   },
   {
@@ -66,7 +66,7 @@
     "genero": "blues",
     "año": 1990,
     "precio": 25000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/7/72/RobertJohnsonCompleteRecordings.jpg",
+    "imagen": "img/disco_7.jpg",
     "disponible": false
   },
   {
@@ -76,7 +76,7 @@
     "genero": "blues",
     "año": 1965,
     "precio": 27000,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/3/38/B.B._King_-_Live_at_the_Regal.jpg",
+    "imagen": "img/disco_8.jpeg",
     "disponible": true
   },
   {
@@ -86,7 +86,7 @@
     "genero": "blues",
     "año": 1983,
     "precio": 28500,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/8/8a/Stevie_Ray_Vaughan_-_Texas_Flood.jpg",
+    "imagen": "img/disco_9.jpg",
     "disponible": true
   }
 ]
