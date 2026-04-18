@@ -1,28 +1,9 @@
-/*const { createApp, ref, onMounted } = Vue;
-createApp({
-    setup() {
- const titulo = ref('🎵Disquería de Vinilo');
- const discos = ref([]);
- const categoriaActiva = ref('todos');
- // AJAX: carga el catálogo desde el JSON
- async function cargarDiscos() {
- const respuesta = await fetch('data/discos.json');
- const datos = await respuesta.json();
- discos.value = datos;
- }
 
- onMounted(() => {
- cargarDiscos(); // Se ejecuta cuando Vue termina de montar
- });
- return { titulo, discos, categoriaActiva, cargarDiscos };
- }
-}).mount('#app');*/
 
 const { createApp, ref, computed, onMounted } = Vue;
 
 createApp({
   setup() {
-    // Estado reactivo
     const titulo = ref("🎵 Disquería de Vinilo");
     const discos = ref([]);
     const cargando = ref(false);
@@ -30,7 +11,6 @@ createApp({
     const categoria = ref("todos");
     const busqueda = ref("");
 
-    // Carga AJAX del catálogo
     async function cargarDiscos() {
       try {
         cargando.value = true;
@@ -52,7 +32,6 @@ createApp({
       }
     }
 
-    // Filtro por género + búsqueda por álbum o artista
     const discosFiltrados = computed(() => {
       const termino = busqueda.value.toLowerCase().trim();
 
@@ -84,3 +63,29 @@ createApp({
     };
   },
 }).mount("#app");
+
+
+
+
+
+// Respaldo
+
+/*const { createApp, ref, onMounted } = Vue;
+createApp({
+    setup() {
+ const titulo = ref('🎵Disquería de Vinilo');
+ const discos = ref([]);
+ const categoriaActiva = ref('todos');
+ // AJAX: carga el catálogo desde el JSON
+ async function cargarDiscos() {
+ const respuesta = await fetch('data/discos.json');
+ const datos = await respuesta.json();
+ discos.value = datos;
+ }
+
+ onMounted(() => {
+ cargarDiscos(); // Se ejecuta cuando Vue termina de montar
+ });
+ return { titulo, discos, categoriaActiva, cargarDiscos };
+ }
+}).mount('#app');*/
